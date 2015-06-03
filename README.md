@@ -15,6 +15,10 @@ Modeling is done in two steps:
 1. Finding the important actionable features using random forest and gradient boosting classifier (Finding-Importanct-Variables.ipynb)
 2. Quantifying the effect of different features using logistic regression (Quantifying-Actionable-Features-Effect.ipynb)
 
+Note that Github cannot render all ipython notebooks properly. You can also find all the notebooks at:
+http://nbviewer.ipython.org/github/roozbehdavari/InsightsFromDonorsChoose/tree/master/
+
+
 You can find the presentation at:
 
 Presentation: http://www.slideshare.net/RoozbehDavari/insights-from-donorschoose
