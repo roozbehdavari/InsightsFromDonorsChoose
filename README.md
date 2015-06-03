@@ -16,4 +16,5 @@ Modeling is done in two steps:
 2. Quantifying the effect of different features using logistic regression (Quantifying-Actionable-Features-Effect.ipynb)
 
 You can find the presentation at:
+
 Presentation: http://www.slideshare.net/RoozbehDavari/insights-from-donorschoose
