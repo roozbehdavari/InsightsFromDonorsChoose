@@ -68,7 +68,7 @@ CREATE TABLE projects_new
   date_thank_you_packet_mailed date,
   date_expiration date,
 
-  PRIMARY KEY (_projectid),
+  PRIMARY KEY (_projectid)
 
 );
 
@@ -172,7 +172,10 @@ CREATE TABLE donations
   payment_was_promo_matched text,
   via_giving_page text,
   for_honoree text,
-  donation_message text
+  donation_message text,
+  
+  PRIMARY KEY (_donationid)
+
 );
 
 
