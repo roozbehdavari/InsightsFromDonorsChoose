@@ -74,7 +74,7 @@ CREATE TABLE projects_new
 
 
 LOAD DATA LOCAL 
-INFILE '/Users/Roozbeh/Desktop/DataScience/Practice/DonorsChoose/opendata_projects.csv' 
+INFILE '~/DonorsChoose/opendata_projects.csv' 
 INTO TABLE projects 
 FIELDS TERMINATED BY "," 
 LINES TERMINATED BY "\n" 
@@ -117,7 +117,7 @@ In case you want to have it as a CSV file:
 
 SELECT *
 FROM projects_LA
-INTO OUTFILE '/Users/Roozbeh/Desktop/DataScience/Practice/DonorsChoose/projects_la.csv'
+INTO OUTFILE '~/DonorsChoose/projects_la.csv'
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n';
@@ -181,7 +181,7 @@ CREATE TABLE donations
 
 
 LOAD DATA LOCAL 
-INFILE '/Users/Roozbeh/Desktop/DataScience/Practice/DonorsChoose/opendata_donations.csv' 
+INFILE '~/DonorsChoose/opendata_donations.csv' 
 INTO TABLE donations 
 FIELDS TERMINATED BY "," 
 LINES TERMINATED BY "\n" 
@@ -268,7 +268,7 @@ CREATE TABLE essays
 );
 
 LOAD DATA LOCAL 
-INFILE '/Users/Roozbeh/Desktop/DataScience/Practice/DonorsChoose/opendata_essays.csv' 
+INFILE '~/DonorsChoose/opendata_essays.csv' 
 INTO TABLE essays FIELDS 
 TERMINATED BY '","' 
 LINES TERMINATED BY "\n" 
